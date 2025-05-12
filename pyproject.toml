@@ -1,0 +1,11 @@
+[project]
+name = "preprocess-audio"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "faster-whisper>=1.1.1",
+    "pyannote-audio>=3.3.2",
+    "pydub>=0.25.1",
+]

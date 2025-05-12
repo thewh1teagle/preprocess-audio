@@ -1,9 +1,7 @@
 """
 Install ffmpeg
     winget install --id=Gyan.FFmpeg -e
-Install dependencies
-    uv venv
-    uv pip install pydub
+uv run split.py
 """
 import os
 from pydub import AudioSegment, silence
